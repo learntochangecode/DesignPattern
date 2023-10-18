@@ -1,7 +1,4 @@
-package org.example.designpattern.componentpatternabstract;
-
-import java.util.ArrayList;
-import java.util.List;
+package org.example.designpattern.component.abstractcomponent;
 
 /**
  * @author wzy

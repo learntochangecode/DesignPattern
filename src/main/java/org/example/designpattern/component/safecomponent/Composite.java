@@ -1,4 +1,4 @@
-package org.example.designpattern.componentpatternabstract;
+package org.example.designpattern.component.safecomponent;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,12 +14,10 @@ class Composite extends Component {
         super(name);
     }
 
-    @Override
     public void add(Component component) {
         this.children.add(component);
     }
 
-    @Override
     public void remove(Component component) {
         this.children.remove(component);
     }
@@ -34,5 +32,4 @@ class Composite extends Component {
             component.show(depth + 1);
         }
     }
-
 }

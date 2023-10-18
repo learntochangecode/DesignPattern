@@ -1,7 +1,4 @@
-package org.example.designpattern.componentpatternsafe;
-
-import java.util.ArrayList;
-import java.util.List;
+package org.example.designpattern.component.safecomponent;
 
 /**
  * @author wzy

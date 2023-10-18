@@ -1,4 +1,4 @@
-package org.example.designpattern.componentpatternabstract;
+package org.example.designpattern.component.safecomponent;
 
 /**
  * @author wzy
@@ -10,10 +10,6 @@ abstract class Component {
     public Component(String name) {
         this.name = name;
     }
-
-    public abstract void add(Component component);
-
-    public abstract void remove(Component component);
 
     public abstract void show(int depth);
 }

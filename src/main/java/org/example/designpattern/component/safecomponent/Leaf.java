@@ -1,4 +1,4 @@
-package org.example.designpattern.componentpatternabstract;
+package org.example.designpattern.component.safecomponent;
 
 /**
  * @author wzy
@@ -7,16 +7,6 @@ package org.example.designpattern.componentpatternabstract;
 class Leaf extends Component {
     public Leaf(String name) {
         super(name);
-    }
-
-    @Override
-    public void add(Component component) {
-
-    }
-
-    @Override
-    public void remove(Component component) {
-
     }
 
     @Override
