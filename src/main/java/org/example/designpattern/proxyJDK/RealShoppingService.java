@@ -1,4 +1,4 @@
-package org.example.designpattern.proxy;
+package org.example.designpattern.proxyJDK;
 
 /**
  * @author wzy
